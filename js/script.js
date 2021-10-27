@@ -1,3 +1,9 @@
+var highlightedItems = document.querySelectorAll('.swiper-container');
+
+highlightedItems.forEach(function(userItem) {
+  userItem.classList.add('swiper');
+});
+
 var mySwiper = new Swiper('.s3_container', {
     loop: true,
     spaceBetween: 20,
